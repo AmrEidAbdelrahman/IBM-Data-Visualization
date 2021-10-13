@@ -43,5 +43,15 @@ for name, hex in matplotlib.colors.cnames.items():
 - A bar plot is a way of representing data where the length of the bars represents the magnitude/size of the feature/variable. Bar graphs usually represent numerical and categorical variables grouped in intervals.
 To create a bar plot, we can pass one of two arguments via kind parameter in plot():
   - kind=bar creates a vertical bar plot
-  -kind=barh creates a horizontal bar plot
+  - kind=barh creates a horizontal bar plot
 
+
+### Pie Charts 
+- A pie chart is a circular graphic that displays numeric proportions by dividing a circle (or pie) into proportional slices. You are most likely already familiar with pie charts as it is widely used in business and media. We can create pie charts in Matplotlib by passing in the kind=pie keyword.
+
+
+### We will use pandas groupby method to summarize the immigration data by Continent. The general process of groupby involves the following steps:
+- Split: Splitting the data into groups based on some criteria.
+- Apply: Applying a function to each group independently: .sum() .count() .mean() .std() .aggregate() .apply() .etc..
+- Combine: Combining the results into a data structure.
+<br><img src='groupby.jpg'>
