@@ -54,4 +54,13 @@ To create a bar plot, we can pass one of two arguments via kind parameter in plo
 - Split: Splitting the data into groups based on some criteria.
 - Apply: Applying a function to each group independently: .sum() .count() .mean() .std() .aggregate() .apply() .etc..
 - Combine: Combining the results into a data structure.
-<br><img src='groupby.jpg'>
+<br><img src='groupby.jpg'><br><br>
+
+### Box Plots 
+A box plot is a way of statistically representing the distribution of the data through five main dimensions:
+    - Minimum: The smallest number in the dataset excluding the outliers.
+    - First quartile: Middle number between the minimum and the median.
+    - Second quartile (Median): Middle number of the (sorted) dataset.
+    - Third quartile: Middle number between median and maximum.
+    - Maximum: The largest number in the dataset excluding the outliers.
+<br><br><img src='https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/labs/Module%203/images/boxplot_complete.png'><br><br>
