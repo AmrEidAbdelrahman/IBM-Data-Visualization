@@ -227,7 +227,7 @@ Unfortunately, unlike R, waffle charts are not built into any of the Python visu
               )
     plt.show()
     ```
-There seems to be a new Python package for generating waffle charts called PyWaffle, but it looks like the repository is still being built. But feel free to check it out and play with it.
+There seems to be a new Python package for generating waffle charts called <a href='https://github.com/gyli/PyWaffle'>PyWaffle</a>, but it looks like the repository is still being built. But feel free to check it out and play with it.
 
 
 
