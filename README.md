@@ -1,5 +1,6 @@
 # IBM-Data-Visualization
 
+As the saying goes, **A picture worth thousand words**. Data visualization through dashboards will help you uncover information from data that are hidden and democratize the understanding of the extracted information.
 
 Why build visuals ?
 - for explorator data analysis
