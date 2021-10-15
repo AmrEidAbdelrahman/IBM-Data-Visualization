@@ -229,11 +229,19 @@ Unfortunately, unlike R, waffle charts are not built into any of the Python visu
     ```
 There seems to be a new Python package for generating waffle charts called <a href='https://github.com/gyli/PyWaffle'>PyWaffle</a>, but it looks like the repository is still being built. But feel free to check it out and play with it.
 
+### Word Clouds 
+Word clouds (also known as text clouds or tag clouds) work in a simple way: the more a specific word appears in a source of textual data (such as a speech, blog post, or database), the bigger and bolder it appears in the word cloud.
+
+Luckily, a Python package already exists in Python for generating word clouds. The package, called word_cloud was developed by Andreas Mueller. You can learn more about the package by following this <a href='https://github.com/amueller/word_cloud/'>link</a>.
+Another cool thing you can implement with the word_cloud package is superimposing the words onto a mask of any shape. Let's use a mask of Alice and her rabbit. We already created the mask for you, so let's go ahead and download it and call it alice_mask.png.
 
 
 
+### Regression Plots
 
+> Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. You can learn more about seaborn by following this link and more about seaborn regression plots by following this link.
 
+In lab Pie Charts, Box Plots, Scatter Plots, and Bubble Plots, we learned how to create a scatter plot and then fit a regression line. It took ~20 lines of code to create the scatter plot along with the regression fit. In this final section, we will explore seaborn and see how efficient it is to create regression lines and fits using this library!
 
 
 
