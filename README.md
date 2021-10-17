@@ -246,6 +246,14 @@ In lab Pie Charts, Box Plots, Scatter Plots, and Bubble Plots, we learned how to
 
 
 
+# Additional Resources for Dash
+To learn more about Dash, explore
+<a href="https://dash.plotly.com/">Complete dash user guide</a><br>
+<a href="https://dash.plotly.com/dash-core-components">Dash core components</a><br>
+<a href="https://dash.plotly.com/dash-html-components">Dash HTML components</a><br>
+<a href="https://community.plotly.com/c/dash/16">Dash community forum</a><br>
+<a href="https://medium.com/plotly/tagged/dash">Related blogs</a><br>
+
 
 
 
