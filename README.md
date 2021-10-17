@@ -255,6 +255,14 @@ To learn more about Dash, explore
 <a href="https://medium.com/plotly/tagged/dash">Related blogs</a><br>
 
 
+# Additional Resources for Interactive Dashboards
+To learn more about making interactive dashboards in Dash, visit
+<a href="https://realpython.com/primer-on-python-decorators/">Python decorators reference 1</a><br>
+<a href="https://www.python.org/dev/peps/pep-0318/#current-syntax">Python decorators reference 2</a><br>
+<a href="https://dash.plotly.com/basic-callbacks">Callbacks with example</a><br>
+<a href="https://dash-gallery.plotly.host/Portal/">Dash app gallery</a><br>
+<a href="https://plotly.com/dash-community-components/">Dash community components</a><br>
+
 
 
 
