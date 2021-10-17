@@ -279,3 +279,59 @@ Since it's not always easy to decide how to best tell the story behind your data
     - `KDE plots (or 2D KDE plots)` show an estimated, smooth distribution of a single numerical variable (or two numerical variables).
     - `jointplot` - This command is useful for simultaneously displaying a 2D KDE plot with the corresponding KDE plots for each individual variable.
 
+
+# The top 7 used chart types:
+- Bar Chart
+    - When to use:
+        1. Comparing parts of a bigger set of data, highlighting different categories, or showing change over time.
+        2. Have long categories label — it offers more space.
+        3. If you want to illustrate both positive and negative values in the dataset.
+    - when to avoid:
+        1. If you’re using multiple data points.
+        2. If you have many categories, avoid overloading your graph. Your graph shouldn’t have more than 10 bars.
+- Pie Chart
+    - When to use:
+        1. When you show relative proportions and percentages of a whole dataset.
+        2. Best used with small datasets — also applies to donut charts.
+        3. When comparing the effect of ONE factor on different categories.
+        4. If you have up to 6 categories.
+        5. When your data is nomial and not ordinal.
+    - When to Avoid:
+        1. If you have a big dataset.
+        2. If you want to make a precise or absolute comparison between values.
+- Line Chart
+    - When to use:
+        1. If you have a continuous dataset that changes over time.
+        2. If your dataset is too big for a bar chart.
+        3. If you want to display multiple series for the same timeline.
+        4. If you want to visualize trends instead of exact values.
+    - When to avoid:
+        1. Line charts work better with bigger datasets, so, if you have a small one, use a bar chart instead.
+- Scatter Plot
+    - When to use:
+        1. To show correlation and clustering in big datasets.
+        2. If your dataset contains points that have a pair of values.
+        3. If the order of points in the dataset is not essential.
+    - When to avoid:
+        1. If you have a small dataset.
+        2. If the values in your dataset are not correlated.
+- Area Chart
+    - When to use:
+        1. If you want to show part-to-whole relations.
+        2. If you want to portray the volume of your data and not just the relation to time.
+    - When to avoid:
+        1. It can’t be used with discrete data.
+- Bubble Chart 
+    - When to use:
+        1. If you want to compare independent values.
+        2. If you want to show distribution or relation.
+    - When to avoid:
+        1. If you have a small dataset.
+
+# Chart selection tips
+1. If you have categorical data, use a bar chart if you have more than 5 categories or a pie chart otherwise.
+2. If you have nominal data, use bar charts or histograms if your data is discrete, or line/ area charts if it is continuous.
+3. If you want to show the relationship between values in your dataset, use a scatter plot, bubble chart, or line charts.
+4. If you want to compare values, use a pie chart — for relative comparison — or bar charts — for precise comparison.
+5. If you want to compare volumes, use an area chart or a bubble chart.
+6. If you want to show trends and patterns in your data, use a line chart, bar chart, or scatter plot.
